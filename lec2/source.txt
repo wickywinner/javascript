@@ -1,0 +1,2 @@
+we read file from readFileSync an inbuild node library "fs" and then capitalize the content 
+of source file then write it do dest file.
