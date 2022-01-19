@@ -13,6 +13,8 @@ dwnld_promise.then(function(response)
     console.log(html);
     fs.writeFileSync(args.dest,html,"utf-8")
 }
-).cath(function(error){
-    console.log(err)
+).catch(function(err){
+    console.log(err)  
 })
+
+//cmd :- node .\FirstDownloadWeb.js --url="https://www.espncricinfo.com/series/icc-cricket-world-cup-2019-1144415/match-results" --dest="download.html"
